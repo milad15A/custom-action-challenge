@@ -1,0 +1,6 @@
+name: "Print GitHub Actor and Repo Details"
+description: "A custom action that shows details about the repo where the action is running."
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
